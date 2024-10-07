@@ -3,7 +3,7 @@
 
   <head>
 
-    <title>Education Template - Meeting Detail Page</title>
+    <title>About | Racalum University</title>
   </head>
 
 <body>

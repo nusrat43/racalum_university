@@ -24,7 +24,7 @@
 <div class="sub-header">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-sm-8">
+      <!-- <div class="col-lg-8 col-sm-8">
         <div class="left-content">
           <p>This is an educational <em>HTML CSS</em> template by TemplateMo website.</p>
         </div>
@@ -38,6 +38,22 @@
             <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
           </ul>
         </div>
+      </div> -->
+      <!-- <hr> -->
+       <!-- <div style="width: 100%; height:2px; border:1px solid black"></div> -->
+      <div style="display: flex;justify-content: space-between;">
+        <div class="logo1">
+          <img src="assets/images/bau-logo.png" alt="">
+          <div class="head1">
+            <h2>ARAC</h2>
+            <h4>Birsa Agricultural University</h4>
+            <p>Kanke, Ranchi, Jharkhand</p>
+          </div>
+        </div>
+        <div class="head1">
+          <h4>ASSOCIATION OF ALUMNI OF RANCHI <br> AGRICULTURE COLLEGE</h4>
+
+        </div>
       </div>
     </div>
   </div>
@@ -50,8 +66,9 @@
     <div class="row">
       <div class="col-12">
         <nav class="main-nav">
+          <div class="logo"><img src="assets/images/bau-logo.png" alt=""></div>
           <!-- ***** Logo Start ***** -->
-           <div style="display: flex;justify-content: space-between;">
+          <!-- <div style="display: flex;justify-content: space-between;">
            <div class="logo1">
             <img src="assets/images/bau-logo.png" alt="">
             <div href="index.php" >
@@ -64,8 +81,8 @@
               <h3>ASSOCIATION OF ALUMNI OF RANCHI <br> AGRICULTURE COLLEGE</h3>
              
             </div>
-           </div>
-          
+           </div> -->
+
 
           <!-- ***** Logo End ***** -->
           <!-- ***** Menu Start ***** -->
@@ -79,7 +96,17 @@
                 <li><a href="alumniSearch.php">Alumni Search</a></li>
               </ul>
             </li>
-            <li><a href="gallery.php">Gallery</a></li>
+            <li class="has-sub">
+              <a href="javascript:void(0)">Gallery</a>
+              <ul class="sub-menu">
+                <li><a href="alumniRegistration.php">ARAC Gallery</a></li>
+                <li><a href="alumniSearch.php">Farewell Memories</a></li>
+                <li><a href="alumniSearch.php">Glimpse Of 2021</a></li>
+                <li><a href="alumniSearch.php">Glimpse Of 2020</a></li>
+                <li><a href="alumniSearch.php">Glimpse Of 2019</a></li>
+                <li><a href="alumniSearch.php">Glimpse Of 2018</a></li>
+              </ul>
+            </li>
             <li><a href="event.php">Event</a></li>
             <li><a href="counseling.php">Counseling</a></li>
             <li class="has-sub">

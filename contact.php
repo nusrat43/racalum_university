@@ -66,7 +66,7 @@
             </div>
         </section>
 
-    <section class="contact-us" id="contact">
+        <section class="contact-us" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-9 align-self-center">
@@ -132,14 +132,9 @@
             </div>
 
         </div>
-
-        
-
-
-
-
-        <?php include 'footer.php' ?>
     </section>
+
+    <?php include 'footer.php' ?>
 
 
     <!-- Scripts -->

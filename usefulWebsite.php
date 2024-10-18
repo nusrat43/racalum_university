@@ -22,8 +22,7 @@
 
 
 
-  <section class="contact-us" id="contact">
   <?php include 'footer.php'?>
-  </section>
+
 </body>
 </html>
